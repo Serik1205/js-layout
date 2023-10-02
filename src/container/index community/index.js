@@ -44,7 +44,7 @@ const createPost = () => {
 		postData.category.forEach((category) => {
 			const categorySpan = createElement(
 				'span',
-				`post__category post__category--${category.id}`,
+				'post__category post__category--${category.id}',
 				category.text,
 			)
 			categoryList.append(categorySpan)
