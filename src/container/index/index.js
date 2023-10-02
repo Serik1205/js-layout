@@ -26,7 +26,6 @@ const POST_LIST = [
 		date: "24.01",
 		viewed: true,
 	},
-
 ]
 
 const createPost = () => {
